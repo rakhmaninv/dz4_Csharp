@@ -40,7 +40,7 @@ int[] CreateArray(int len, int elMin, int elMax)
 void PrintArray(int[] array)
 {
     Console.Write("[");
-    for (int i = 0; i < array.Length -1; i++)
+    for (int i = 0; i < array.Length; i++)
     {
         Console.Write(array[i] + ", ");
     }
